@@ -1,0 +1,796 @@
+{
+ "game": "NIGHT CITY COMMAND CENTRE",
+ "subtitle": "Cyberpunk 2077 - Patch 2.31 with Phantom Liberty",
+ "sources": {
+  "reference": [
+   "cyberpunk2077.wiki/builds",
+   "slashkeys.com/guides (Patch 2.31 builds)"
+  ],
+  "videos": "Real YouTube guide videos, harvested with yt-dlp on gpu-server (Oct 2026). Video titles, authors and links are the original creators'."
+ },
+ "entities": [
+  {
+   "name": "Builds",
+   "kind": "Topic",
+   "description": "The five archetypes - Netrunner, Blade Dancer, Quake Brawler, Deadeye Gunslinger and Bolt Tech Specialist.",
+   "tips": [
+    "Overclock Netrunner: Intelligence 20, Technical Ability 20, Body 20, Reflexes 9, Cool 12.",
+    "Deadeye Gunslinger rewards accurate aim - invest in Reflexes.",
+    "Bolt Tech Specialist fits charged shots through cover - invest in Technical Ability.",
+    "Quake Brawler and Blade Dancer survive mistakes thanks to finishers, Berserk and Adrenaline Rush.",
+    "Perks are refundable - you can switch between builds that share attributes.",
+    "Never lock attributes before testing a perk package at a lower level."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "pieqDJNQt5E",
+    "kmk2d8rt-sk",
+    "RwigdXcEwOs"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "builds",
+    "build",
+    "best build",
+    "netrunner",
+    "blades",
+    "brawler",
+    "gunslinger",
+    "ninja",
+    "samurai",
+    "streetkid",
+    "gig",
+    "edgerunner",
+    "attributes",
+    "archetype"
+   ]
+  },
+  {
+   "name": "Relics",
+   "kind": "Topic",
+   "description": "The Phantom Liberty skill tree. It upgrades cyberware with powerful passive bonuses.",
+   "tips": [
+    "Relic perks come from the Phantom Liberty skill tree, not the main trees.",
+    "The first perk in each Relic branch costs 3 points, follow-ups cost 1.",
+    "Jailbreak unlocks new abilities for Arm cyberware.",
+    "Limiter Removal makes charged Gorilla Arms attacks knock down enemies.",
+    "Machine Learning makes destroying a Vulnerability grant crit damage - it stacks to 5.",
+    "Pick the Relic branch that matches the cyberware you actually run."
+   ],
+   "difficulty": "Hard",
+   "videos": [
+    "2C9Kl9y76mI",
+    "aK9usGxrGy0",
+    "EHxA5dnOAWc"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "relic",
+    "relics",
+    "relic perks",
+    "phantom liberty skill tree"
+   ]
+  },
+  {
+   "name": "Perks",
+   "kind": "Topic",
+   "description": "The five perk trees and how the points work.",
+   "tips": [
+    "Each tree is split into branches and left and right paths.",
+    "The first perk in a branch costs 3 perk points, the follow-ups cost 1 each.",
+    "Intelligence is the Netrunner tree, Technical Ability is the tech/combat tree, Reflexes is the gunslinger tree, Body is the brawler tree, Cool is the stealth tree.",
+    "Update 2.1 retuned perks such as Spontaneous Obliteration and Die! Die! Die!.",
+    "Spend perk points on the branch you are committing to - mixing trees is expensive."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "Y31BdlEwB4o",
+    "9IY15T-7gIQ",
+    "dmpbyrtot6M"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "perks",
+    "perk",
+    "perk tree",
+    "skill tree",
+    "attribute points",
+    "which perks"
+   ]
+  },
+  {
+   "name": "Cyberware",
+   "kind": "Topic",
+   "description": "The implants you install. Each one takes capacity, and too many will cyberpsychose you.",
+   "tips": [
+    "Capacity decides how many implants you can run - plan it like perks.",
+    "You start at 24 capacity and gain 3 per level, reaching 201 at level 60 before bonuses.",
+    "Renaissance Punk adds up to 20 capacity - 4 for each attribute at 9 or higher.",
+    "The Engineer skill adds 5 capacity at rank 10 and 10 at rank 30.",
+    "Edgerunner lets you go 50 over capacity, trading maximum health for extra slots.",
+    "Update 2.1 capped how many implants you can install - exceeding it causes cyberpsychosis."
+   ],
+   "difficulty": "Hard",
+   "videos": [
+    "HWlAqX5ApMk",
+    "nSDlwL69XgU",
+    "zcTNZVHmXyg"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "cyberware",
+    "implants",
+    "capacity",
+    "cyberdeck",
+    "which cyberware",
+    "how much capacity"
+   ]
+  },
+  {
+   "name": "Cyberpsycho",
+   "kind": "Topic",
+   "description": "The condition caused by too much cyberware. It is a mechanic, not just a story.",
+   "tips": [
+    "Overinstalling cyberware raises your cyberpsychosis level.",
+    "Update 2.1 restricted the implant count specifically to stop it.",
+    "As cyberpsychosis climbs, your max health drops and you can die from a seemingly small hit.",
+    "Spending money on thepsycho reduction at Nomad, or removing implants, lowers it.",
+    "David Martinez from Edgerunners is the extreme case - do not copy his implant count without accepting the penalty."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "2C9Kl9y76mI",
+    "aK9usGxrGy0",
+    "EHxA5dnOAWc"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "cyberpsycho",
+    "cyberpsychosis",
+    "become a cyberpsycho",
+    "how to avoid cyberpsychosis"
+   ]
+  },
+  {
+   "name": "Gangs",
+   "kind": "Topic",
+   "description": "The gangs of Night City and what each one wants.",
+   "tips": [
+    "Each fixed-gang district has its own gang and its own jobs.",
+    "Completing a gang's jobs raises your standing and unlocks their gigs.",
+    "The gangs are the Maelstrom, 6th Street, Valentines, Animals, Voodoo Boys, Tyger Claws, 6th Street and the Handbrake crew groups.",
+    "All Foods, Trauma Team and assorted corpo jobs sit alongside the gang work.",
+    "Gang standing is per-district - do the jobs in the area you want to rank up in."
+   ],
+   "difficulty": "Low",
+   "videos": [
+    "mPquSoSryBI",
+    "bkgKjL57NVA",
+    "jp2W6eQbMR4"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "gangs",
+    "gang",
+    "maelstrom",
+    "voodoo boys",
+    "tyger claws",
+    "6th street",
+    "valentines",
+    "animals",
+    "jobs"
+   ]
+  },
+  {
+   "name": "Drops",
+   "kind": "Topic",
+   "description": "Legendary and epic gear - where it comes from and how to get it.",
+   "tips": [
+    "Legendary weapons drop from specific bosses and cyberpsycho encounters.",
+    "The Relic unlocks new cyberware - including the Relic skill tree and some of the best gear.",
+    "Side gigs, gigs and cyberpsycho fights are the main legendary sources.",
+    "Iconic weapons are separate - they have fixed stats and unique names.",
+    "Do not sell epics you have not compared - the iconics drop into the same slot."
+   ],
+   "difficulty": "Medium",
+   "videos": [
+    "klLl_53w2ns",
+    "yNOEpgyDWMM",
+    "QqxmZSWSFCw"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "drops",
+    "legendary",
+    "epic",
+    "iconic weapons",
+    "where to find gear",
+    "cyberpsycho rewards",
+    "loot"
+   ]
+  },
+  {
+   "name": "Contracts",
+   "kind": "Topic",
+   "description": "The gig and job system that fills the map.",
+   "tips": [
+    "Gigs are the small jobs - a fixed objective and a fixed payment.",
+    "Jobs are the larger multi-step contracts with better pay.",
+    "Both appear on the map with coloured markers - green for gigs, blue for jobs, purple for cyberpsycho missions.",
+    "Deliveries are the courier contracts - pay scales with distance and difficulty.",
+    "Complete gigs and jobs to build street cred, which opens the better contracts."
+   ],
+   "difficulty": "Low",
+   "videos": [
+    "NatfCSs8LyY",
+    "Zdz1w-2PSAA",
+    "d8QvaoOPqyQ"
+   ],
+   "has_videos": true,
+   "aliases": [
+    "contracts",
+    "contract",
+    "gigs",
+    "jobs",
+    "deliveries",
+    "street cred",
+    "side jobs"
+   ]
+  }
+ ],
+ "tips": [
+  {
+   "topic": "Builds",
+   "detail": "1. Overclock Netrunner: Intelligence 20, Technical Ability 20, Body 20, Reflexes 9, Cool 12.",
+   "step": 1
+  },
+  {
+   "topic": "Builds",
+   "detail": "2. Deadeye Gunslinger rewards accurate aim - invest in Reflexes.",
+   "step": 2
+  },
+  {
+   "topic": "Builds",
+   "detail": "3. Bolt Tech Specialist fits charged shots through cover - invest in Technical Ability.",
+   "step": 3
+  },
+  {
+   "topic": "Builds",
+   "detail": "4. Quake Brawler and Blade Dancer survive mistakes thanks to finishers, Berserk and Adrenaline Rush.",
+   "step": 4
+  },
+  {
+   "topic": "Builds",
+   "detail": "5. Perks are refundable - you can switch between builds that share attributes.",
+   "step": 5
+  },
+  {
+   "topic": "Builds",
+   "detail": "6. Never lock attributes before testing a perk package at a lower level.",
+   "step": 6
+  },
+  {
+   "topic": "Relics",
+   "detail": "1. Relic perks come from the Phantom Liberty skill tree, not the main trees.",
+   "step": 1
+  },
+  {
+   "topic": "Relics",
+   "detail": "2. The first perk in each Relic branch costs 3 points, follow-ups cost 1.",
+   "step": 2
+  },
+  {
+   "topic": "Relics",
+   "detail": "3. Jailbreak unlocks new abilities for Arm cyberware.",
+   "step": 3
+  },
+  {
+   "topic": "Relics",
+   "detail": "4. Limiter Removal makes charged Gorilla Arms attacks knock down enemies.",
+   "step": 4
+  },
+  {
+   "topic": "Relics",
+   "detail": "5. Machine Learning makes destroying a Vulnerability grant crit damage - it stacks to 5.",
+   "step": 5
+  },
+  {
+   "topic": "Relics",
+   "detail": "6. Pick the Relic branch that matches the cyberware you actually run.",
+   "step": 6
+  },
+  {
+   "topic": "Perks",
+   "detail": "1. Each tree is split into branches and left and right paths.",
+   "step": 1
+  },
+  {
+   "topic": "Perks",
+   "detail": "2. The first perk in a branch costs 3 perk points, the follow-ups cost 1 each.",
+   "step": 2
+  },
+  {
+   "topic": "Perks",
+   "detail": "3. Intelligence is the Netrunner tree, Technical Ability is the tech/combat tree, Reflexes is the gunslinger tree, Body is the brawler tree, Cool is the stealth tree.",
+   "step": 3
+  },
+  {
+   "topic": "Perks",
+   "detail": "4. Update 2.1 retuned perks such as Spontaneous Obliteration and Die! Die! Die!.",
+   "step": 4
+  },
+  {
+   "topic": "Perks",
+   "detail": "5. Spend perk points on the branch you are committing to - mixing trees is expensive.",
+   "step": 5
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "1. Capacity decides how many implants you can run - plan it like perks.",
+   "step": 1
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "2. You start at 24 capacity and gain 3 per level, reaching 201 at level 60 before bonuses.",
+   "step": 2
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "3. Renaissance Punk adds up to 20 capacity - 4 for each attribute at 9 or higher.",
+   "step": 3
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "4. The Engineer skill adds 5 capacity at rank 10 and 10 at rank 30.",
+   "step": 4
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "5. Edgerunner lets you go 50 over capacity, trading maximum health for extra slots.",
+   "step": 5
+  },
+  {
+   "topic": "Cyberware",
+   "detail": "6. Update 2.1 capped how many implants you can install - exceeding it causes cyberpsychosis.",
+   "step": 6
+  },
+  {
+   "topic": "Cyberpsycho",
+   "detail": "1. Overinstalling cyberware raises your cyberpsychosis level.",
+   "step": 1
+  },
+  {
+   "topic": "Cyberpsycho",
+   "detail": "2. Update 2.1 restricted the implant count specifically to stop it.",
+   "step": 2
+  },
+  {
+   "topic": "Cyberpsycho",
+   "detail": "3. As cyberpsychosis climbs, your max health drops and you can die from a seemingly small hit.",
+   "step": 3
+  },
+  {
+   "topic": "Cyberpsycho",
+   "detail": "4. Spending money on thepsycho reduction at Nomad, or removing implants, lowers it.",
+   "step": 4
+  },
+  {
+   "topic": "Cyberpsycho",
+   "detail": "5. David Martinez from Edgerunners is the extreme case - do not copy his implant count without accepting the penalty.",
+   "step": 5
+  },
+  {
+   "topic": "Gangs",
+   "detail": "1. Each fixed-gang district has its own gang and its own jobs.",
+   "step": 1
+  },
+  {
+   "topic": "Gangs",
+   "detail": "2. Completing a gang's jobs raises your standing and unlocks their gigs.",
+   "step": 2
+  },
+  {
+   "topic": "Gangs",
+   "detail": "3. The gangs are the Maelstrom, 6th Street, Valentines, Animals, Voodoo Boys, Tyger Claws, 6th Street and the Handbrake crew groups.",
+   "step": 3
+  },
+  {
+   "topic": "Gangs",
+   "detail": "4. All Foods, Trauma Team and assorted corpo jobs sit alongside the gang work.",
+   "step": 4
+  },
+  {
+   "topic": "Gangs",
+   "detail": "5. Gang standing is per-district - do the jobs in the area you want to rank up in.",
+   "step": 5
+  },
+  {
+   "topic": "Drops",
+   "detail": "1. Legendary weapons drop from specific bosses and cyberpsycho encounters.",
+   "step": 1
+  },
+  {
+   "topic": "Drops",
+   "detail": "2. The Relic unlocks new cyberware - including the Relic skill tree and some of the best gear.",
+   "step": 2
+  },
+  {
+   "topic": "Drops",
+   "detail": "3. Side gigs, gigs and cyberpsycho fights are the main legendary sources.",
+   "step": 3
+  },
+  {
+   "topic": "Drops",
+   "detail": "4. Iconic weapons are separate - they have fixed stats and unique names.",
+   "step": 4
+  },
+  {
+   "topic": "Drops",
+   "detail": "5. Do not sell epics you have not compared - the iconics drop into the same slot.",
+   "step": 5
+  },
+  {
+   "topic": "Contracts",
+   "detail": "1. Gigs are the small jobs - a fixed objective and a fixed payment.",
+   "step": 1
+  },
+  {
+   "topic": "Contracts",
+   "detail": "2. Jobs are the larger multi-step contracts with better pay.",
+   "step": 2
+  },
+  {
+   "topic": "Contracts",
+   "detail": "3. Both appear on the map with coloured markers - green for gigs, blue for jobs, purple for cyberpsycho missions.",
+   "step": 3
+  },
+  {
+   "topic": "Contracts",
+   "detail": "4. Deliveries are the courier contracts - pay scales with distance and difficulty.",
+   "step": 4
+  },
+  {
+   "topic": "Contracts",
+   "detail": "5. Complete gigs and jobs to build street cred, which opens the better contracts.",
+   "step": 5
+  }
+ ],
+ "videos": [
+  {
+   "id": "pieqDJNQt5E",
+   "title": "So I Tried Kingsley's \"Build\" From Edgerunners 2....(Cyberpunk 2077 Update 2.5 Best Builds)",
+   "author": "KhrazeGaming",
+   "url": "https://www.youtube.com/watch?v=pieqDJNQt5E",
+   "scope": "Builds guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Builds"
+  },
+  {
+   "id": "kmk2d8rt-sk",
+   "title": "I Tried Talia's Build From Edgerunners 2, It's... (Cyberpunk 2077 Update 2.5 Best Builds)",
+   "author": "KhrazeGaming",
+   "url": "https://www.youtube.com/watch?v=kmk2d8rt-sk",
+   "scope": "Builds guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Builds"
+  },
+  {
+   "id": "RwigdXcEwOs",
+   "title": "So I Tried The Most Ridiculous DUAL WIELD Build In  Cyberpunk 2077 Update 2.5....",
+   "author": "KhrazeGaming",
+   "url": "https://www.youtube.com/watch?v=RwigdXcEwOs",
+   "scope": "Builds guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Builds"
+  },
+  {
+   "id": "2C9Kl9y76mI",
+   "title": "Cyberpunk 2077│ How to INCAPACITATE a CYBERPSYCHO WITH ANY WEAPONS ( Except auto-rifles ) - Guide",
+   "author": "Dj Dragon",
+   "url": "https://www.youtube.com/watch?v=2C9Kl9y76mI",
+   "scope": "Relics guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Relics"
+  },
+  {
+   "id": "aK9usGxrGy0",
+   "title": "Cyberpunk 2077 - 8 BEST CYBERWARE Items You Need to Get",
+   "author": "Big Dan Gaming",
+   "url": "https://www.youtube.com/watch?v=aK9usGxrGy0",
+   "scope": "Relics guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Relics"
+  },
+  {
+   "id": "EHxA5dnOAWc",
+   "title": "How to Reach Cyberpsychosis in Cyberpunk 2077 2.0 (Cyberpsycho)",
+   "author": "Frebazz",
+   "url": "https://www.youtube.com/watch?v=EHxA5dnOAWc",
+   "scope": "Relics guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Relics"
+  },
+  {
+   "id": "Y31BdlEwB4o",
+   "title": "Don't Ruin Your Character In Update 2.0! Cyberpunk 2077 Best New Skill  & Skill Tree Breakdown",
+   "author": "KhrazeGaming",
+   "url": "https://www.youtube.com/watch?v=Y31BdlEwB4o",
+   "scope": "Perks guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Perks"
+  },
+  {
+   "id": "9IY15T-7gIQ",
+   "title": "Ultimate Skill Progression & Attribute Guide in Cyberpunk 2077",
+   "author": "ItalianSpartacus",
+   "url": "https://www.youtube.com/watch?v=9IY15T-7gIQ",
+   "scope": "Perks guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Perks"
+  },
+  {
+   "id": "dmpbyrtot6M",
+   "title": "Essential Perks Every Cyberpunk 2077 Build Needs",
+   "author": "GameRant",
+   "url": "https://www.youtube.com/watch?v=dmpbyrtot6M",
+   "scope": "Perks guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Perks"
+  },
+  {
+   "id": "HWlAqX5ApMk",
+   "title": "The Most OP Cyberware in Cyberpunk 2077! | Cyberpunk 2077 Best Builds (Tips & Tricks)",
+   "author": "NorZZa",
+   "url": "https://www.youtube.com/watch?v=HWlAqX5ApMk",
+   "scope": "Cyberware guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberware"
+  },
+  {
+   "id": "nSDlwL69XgU",
+   "title": "Cyberware Explained for Cyberpunk 2077 2.0 UPDATE! (ALL You Need To Know!)",
+   "author": "zKarmaa",
+   "url": "https://www.youtube.com/watch?v=nSDlwL69XgU",
+   "scope": "Cyberware guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberware"
+  },
+  {
+   "id": "zcTNZVHmXyg",
+   "title": "You NEED Cyberware In Cyberpunk 2077 2.0! - Cyberware Guide (Cyberpunk 2077 Phantom Liberty Tips)",
+   "author": "NorZZa",
+   "url": "https://www.youtube.com/watch?v=zcTNZVHmXyg",
+   "scope": "Cyberware guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberware"
+  },
+  {
+   "id": "2C9Kl9y76mI",
+   "title": "Cyberpunk 2077│ How to INCAPACITATE a CYBERPSYCHO WITH ANY WEAPONS ( Except auto-rifles ) - Guide",
+   "author": "Dj Dragon",
+   "url": "https://www.youtube.com/watch?v=2C9Kl9y76mI",
+   "scope": "Cyberpsycho guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberpsycho"
+  },
+  {
+   "id": "aK9usGxrGy0",
+   "title": "Cyberpunk 2077 - 8 BEST CYBERWARE Items You Need to Get",
+   "author": "Big Dan Gaming",
+   "url": "https://www.youtube.com/watch?v=aK9usGxrGy0",
+   "scope": "Cyberpsycho guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberpsycho"
+  },
+  {
+   "id": "EHxA5dnOAWc",
+   "title": "How to Reach Cyberpsychosis in Cyberpunk 2077 2.0 (Cyberpsycho)",
+   "author": "Frebazz",
+   "url": "https://www.youtube.com/watch?v=EHxA5dnOAWc",
+   "scope": "Cyberpsycho guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Cyberpsycho"
+  },
+  {
+   "id": "mPquSoSryBI",
+   "title": "The Gangs Of Cyberpunk 2077 - The FULL Lore | Cyberpunk Night City Lore",
+   "author": "WiseFish",
+   "url": "https://www.youtube.com/watch?v=mPquSoSryBI",
+   "scope": "Gangs guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Gangs"
+  },
+  {
+   "id": "bkgKjL57NVA",
+   "title": "cyberpunk 2077 gang guide - what are the different factions",
+   "author": "Sofa Supastar Gaming",
+   "url": "https://www.youtube.com/watch?v=bkgKjL57NVA",
+   "scope": "Gangs guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Gangs"
+  },
+  {
+   "id": "jp2W6eQbMR4",
+   "title": "Cyberpunk 2077: The 9 GANGS of Night City - FULL Breakdown",
+   "author": "Dash Star Games",
+   "url": "https://www.youtube.com/watch?v=jp2W6eQbMR4",
+   "scope": "Gangs guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Gangs"
+  },
+  {
+   "id": "klLl_53w2ns",
+   "title": "Cyberpunk 2077 - How to Get ALL ICONIC WEAPONS Location Guide (Patch 2.3 & After)",
+   "author": "Big Dan Gaming",
+   "url": "https://www.youtube.com/watch?v=klLl_53w2ns",
+   "scope": "Drops guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Drops"
+  },
+  {
+   "id": "yNOEpgyDWMM",
+   "title": "12 Legendary Items You Can Get at Level 1 in Cyberpunk 2077",
+   "author": "Dare To Game",
+   "url": "https://www.youtube.com/watch?v=yNOEpgyDWMM",
+   "scope": "Drops guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Drops"
+  },
+  {
+   "id": "QqxmZSWSFCw",
+   "title": "YINGLONG Legendary/Iconic Smart Submachine Gun LOCATION & GAMEPLAY - Cyberpunk 2077",
+   "author": "SpookyFairy",
+   "url": "https://www.youtube.com/watch?v=QqxmZSWSFCw",
+   "scope": "Drops guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Drops"
+  },
+  {
+   "id": "NatfCSs8LyY",
+   "title": "How to start completing gigs for Wakako Okada in Cyberpunk 2077",
+   "author": "Magic Monk",
+   "url": "https://www.youtube.com/watch?v=NatfCSs8LyY",
+   "scope": "Contracts guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Contracts"
+  },
+  {
+   "id": "Zdz1w-2PSAA",
+   "title": "Cyberpunk 2077: The Hidden Secrets of Northside's Gigs",
+   "author": "Sam Bram",
+   "url": "https://www.youtube.com/watch?v=Zdz1w-2PSAA",
+   "scope": "Contracts guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Contracts"
+  },
+  {
+   "id": "d8QvaoOPqyQ",
+   "title": "The Ultimate Beginner's Guide to Vehicle Contracts In Cyberpunk 2077 Phantom Liberty DLC",
+   "author": "Renfail",
+   "url": "https://www.youtube.com/watch?v=d8QvaoOPqyQ",
+   "scope": "Contracts guide",
+   "tags": [
+    "cyberpunk-2077",
+    "topic"
+   ],
+   "upload_date": "",
+   "dedicated": true,
+   "entity": "Contracts"
+  }
+ ]
+}

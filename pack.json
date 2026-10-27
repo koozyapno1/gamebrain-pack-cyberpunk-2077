@@ -1,0 +1,179 @@
+{
+ "id": "cyberpunk-2077",
+ "name": "NIGHT CITY COMMAND CENTRE",
+ "subtitle": "Cyberpunk 2077 - Patch 2.31 with Phantom Liberty",
+ "version": "1.0.0",
+ "kb": "kb.json",
+ "ui": {
+  "brand_title": "NIGHT CITY COMMAND CENTRE",
+  "brand_subtitle": "Cyberpunk 2077 - Patch 2.31 with Phantom Liberty",
+  "grid_title": "Build Grid",
+  "grid_question": "Tell me about {sector}",
+  "cols": 8,
+  "rows": 9
+ },
+ "quick_prompts": [
+  "What is the best build for a beginner?",
+  "How do I become a cyberpsycho?",
+  "Which perks should I take?",
+  "What cyberware should I get?",
+  "Where do I find legendary drops?"
+ ],
+ "known_facts": [
+  "There are five attributes: Body, Reflexes, Technical Ability, Intelligence and Cool.",
+  "Perk trees were completely redesigned in Update 2.0 - the first perk in a branch costs 3 points, the follow-ups cost 1.",
+  "Cyberware capacity starts at 24 and gains 3 per level, reaching 201 at level 60 before bonuses.",
+  "Update 2.1 limited how many cyberware implants you can install - going over is how you become a cyberpsycho.",
+  "The game currently sits at Patch 2.31 (Update 2.3) with Phantom Liberty installed."
+ ],
+ "entity_words": [
+  "cyberpunk",
+  "night city",
+  "build",
+  "attribute",
+  "perk",
+  "cyberware",
+  "relic",
+  "cyberpsycho",
+  "quickhack",
+  "sandbox",
+  "netrunner",
+  "blades",
+  "brawler",
+  "gunslinger",
+  "ninja",
+  "samurai",
+  "streetkid",
+  "gig",
+  "edgerunner"
+ ],
+ "system_prompt": "You are the Cyberpunk 2077 assistant (Patch 2.31, Phantom Liberty).\n\nRules:\n- ALWAYS use a tool. Never guess a perk name, cyberware effect or attribute spread.\n- Quote the 'tips' field as ordered steps.\n- Include a video link from the 'videos' field whenever one is returned.\n- When recommending a build, give the attribute points, the key perks, the cyberware and the weapons together - never an attribute spread on its own.",
+ "tools": [
+  {
+   "name": "cyberpunk_guide",
+   "description": "Look up a Cyberpunk 2077 topic (builds, Relics, perks, cyberware, cyberpsychosis, gangs, legendary drops, contracts). Returns what it is and step-by-step tips. ALWAYS use this instead of guessing a perk or cyberware effect.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic, e.g. 'builds'"
+     }
+    }
+   },
+   "match_words": [
+    "cyberpunk",
+    "build",
+    "perk",
+    "cyberware",
+    "relic",
+    "netrunner"
+   ],
+   "query": {
+    "mode": "record",
+    "collection": "entities",
+    "match": "name",
+    "params": [
+     "topic"
+    ],
+    "include": [
+     "name",
+     "kind",
+     "description",
+     "tips",
+     "difficulty"
+    ]
+   }
+  },
+  {
+   "name": "cyberpunk_tips",
+   "description": "Get practical step-by-step Cyberpunk 2077 tips for a topic. Return the steps as a numbered list.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "tips",
+    "advice",
+    "best way",
+    "how do i"
+   ],
+   "query": {
+    "mode": "search",
+    "collection": "tips",
+    "params": [
+     "topic"
+    ],
+    "fields": [
+     "topic",
+     "detail"
+    ],
+    "limit": 6
+   }
+  },
+  {
+   "name": "cyberpunk_videos",
+   "description": "Get YouTube guide videos for a Cyberpunk 2077 topic (builds, perks, cyberware, relics, cyberpsychosis, drops, contracts). ALWAYS include a video link from the 'videos' field in your answer.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "topic": {
+      "type": "string",
+      "description": "Topic"
+     }
+    }
+   },
+   "match_words": [
+    "video",
+    "watch",
+    "youtube",
+    "show me"
+   ],
+   "query": {
+    "mode": "videos",
+    "params": [
+     "topic"
+    ],
+    "videos_collection": "videos",
+    "entities_collection": "entities",
+    "match": "name",
+    "video_entity_field": "entity"
+   }
+  }
+ ],
+ "ref_tabs": [
+  {
+   "id": "entities",
+   "label": "Topics",
+   "kind": "list",
+   "collection": "entities",
+   "fields": [
+    "name",
+    "kind",
+    "description",
+    "difficulty"
+   ]
+  },
+  {
+   "id": "tips",
+   "label": "Tips",
+   "kind": "list",
+   "collection": "tips",
+   "fields": [
+    "topic",
+    "detail"
+   ]
+  },
+  {
+   "id": "videos",
+   "label": "Videos",
+   "kind": "videos",
+   "collection": "videos"
+  }
+ ]
+}
